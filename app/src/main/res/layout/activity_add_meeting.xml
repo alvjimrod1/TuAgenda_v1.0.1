@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddMeeting"
+    android:background="@drawable/f"
+    >
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insertar reunión"
+        android:textColorHint="#FFF"
+         />
+
+    <TextView
+        android:id="@+id/fecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="FECHA"
+        android:layout_below="@+id/nombre"
+        android:textColor="#FFF"
+        />
+
+    <Spinner
+        android:id="@+id/hora"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="ssss"
+        android:textColor="#FFF"
+        android:layout_below="@+id/fecha"
+        android:layout_weight="1"
+
+        />
+
+
+    <EditText
+        android:id="@+id/ubicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insertar ubicacion"
+        android:layout_below="@+id/hora"
+        android:textColorHint="#FFF"
+        />
+
+
+    <EditText
+        android:id="@+id/cliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insertar cliente"
+        android:layout_below="@+id/ubicacion"
+        android:textColorHint="#FFF"
+        />
+
+
+    <EditText
+        android:id="@+id/telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insertar teléfono"
+        android:layout_below="@+id/cliente"
+        android:textColorHint="#FFF"
+        />
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insertar email"
+        android:layout_below="@+id/telefono"
+        android:textColorHint="#FFF"
+        />
+
+    <EditText
+        android:id="@+id/descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insertar descripción"
+        android:layout_below="@+id/email"
+        android:textColorHint="#FFF"
+        />
+
+    <EditText
+        android:id="@+id/nota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insertar nota"
+        android:layout_below="@+id/descripcion"
+        android:textColorHint="#FFF"
+        />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="55dp"
+        android:textColor="#0D2932"
+        android:text="Guardar" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnClickedBack"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/save"
+        android:text="Cancelar"
+        android:textColor="#0D2932"
+        android:layout_alignParentRight="true" />
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/f"
+    tools:context=".ActualizarReunionesNombre">
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="88dp"
+        android:hint="Reunión"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/fecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nombre"
+        android:hint="Fecha"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF" />
+
+    <EditText
+        android:id="@+id/hora"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/fecha"
+        android:hint="Hora"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF"
+
+        />
+
+
+    <EditText
+        android:id="@+id/ubicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hora"
+        android:hint="Ubicacion"
+        android:textColorHint="#FFF"
+        android:textColor="#FFF"/>
+
+
+    <EditText
+        android:id="@+id/cliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ubicacion"
+        android:hint="Cliente"
+        android:textColorHint="#FFF"
+        android:textColor="#FFF"/>
+
+
+    <EditText
+        android:id="@+id/telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cliente"
+        android:hint="Teléfono"
+        android:textColorHint="#FFF"
+        android:textColor="#FFF"/>
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/telefono"
+        android:hint="Email"
+        android:textColorHint="#FFF"
+        android:textColor="#FFF"/>
+
+    <EditText
+        android:id="@+id/descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email"
+        android:hint="Descripción"
+        android:textColorHint="#FFF"
+        android:textColor="#FFF"/>
+
+    <EditText
+        android:id="@+id/nota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/descripcion"
+        android:hint="Nota"
+        android:textColorHint="#FFF"
+        android:textColor="#FFF"/>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="13dp"
+        android:text="Guardar"
+        android:textColor="#0D2932" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/save"
+        android:onClick="btnClickedBack"
+        android:text="Cancelar"
+        android:textColor="#0D2932" />
+
+    <Button
+        android:id="@+id/consultar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/nombre"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="-66dp"
+        android:text="Consultar" />
+
+    <EditText
+        android:id="@+id/nombreReunion"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/nombre"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="-66dp"
+        android:hint="Introduce nombre"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF" />
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_below="@+id/nota"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF" />
+
+    <TextView
+        android:id="@+id/rayaRosa"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="74dp"
+        android:background="#FFF"
+        android:text="" />
+
+
+</RelativeLayout>

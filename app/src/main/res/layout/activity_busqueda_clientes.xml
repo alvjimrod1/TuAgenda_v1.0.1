@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/f"
+    tools:context=".ListaClientes">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Introduce el nombre del cliente a buscar"
+                android:textColorHint="#FFF"/>
+
+            <Button
+                android:id="@+id/btnBusquedaCliente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#0D2932"
+                android:text="Button" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/listaClientes"
+            android:layout_width="match_parent"
+            android:layout_height="395dp"
+            android:layout_weight="1"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="75dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

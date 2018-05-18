@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textViewNombreT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:paddingBottom="10dp"
+        android:text="Spiderman"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewClienteT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewNombreT"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:paddingTop="10dp"
+        android:text="Spiderman"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textViewTelefonoT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewClienteT"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:paddingTop="10dp"
+        android:text="Spiderman"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textViewDescripcionT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewTelefonoT"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:paddingTop="10dp"
+        android:text="Spiderman"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textViewEmailT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewDescripcionT"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:paddingTop="10dp"
+        android:text="Spiderman"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textViewHoraT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewEmailT"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:paddingTop="10dp"
+        android:text="Spiderman"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textViewNotaT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewHoraT"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:paddingTop="10dp"
+        android:text="Spiderman"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textViewUbicacionT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewNotaT"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:paddingTop="10dp"
+        android:text="Spiderman"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textViewFechaT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewUbicacionT"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:paddingTop="10dp"
+        android:text="Spiderman"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewFechaT"
+        android:text="Borrar" />
+</RelativeLayout>

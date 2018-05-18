@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AddUsuario"
+        android:background="@drawable/f">
+
+        <View
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:alpha="0.6"
+            android:layout_alignParentTop="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nombre"
+            android:hint="Nombre Usuario"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:drawablePadding="10dp"
+            android:textColorHint="#cccccc"
+            android:drawableLeft="@drawable/ic_contacts_white"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="180dp" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:textColorHint="#cccccc"
+            android:id="@+id/email"
+            android:hint="Email"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_email_white"
+            android:layout_below="@+id/nombre"
+            android:layout_alignLeft="@+id/nombre"
+            android:layout_alignStart="@+id/nombre"
+            android:layout_alignRight="@+id/nombre"
+            android:layout_alignEnd="@+id/nombre" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/contraseña"
+            android:hint="Contraseña"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:textColorHint="#cccccc"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_vpn_key_white"
+            android:layout_below="@+id/email"
+            android:layout_alignLeft="@+id/email"
+            android:layout_alignStart="@+id/email"
+            android:layout_alignRight="@+id/email"
+            android:layout_alignEnd="@+id/email" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/telefono"
+            android:hint="Teléfono"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:textColorHint="#cccccc"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_phone_white_24dp"
+            android:layout_below="@+id/contraseña"
+            android:layout_alignLeft="@+id/contraseña"
+            android:layout_alignStart="@+id/contraseña"
+            android:layout_alignRight="@+id/contraseña"
+            android:layout_alignEnd="@+id/contraseña" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registro"
+            android:id="@+id/btn_reg"
+            android:textColor="#0D2932"
+            android:layout_below="@+id/telefono"
+            android:layout_alignLeft="@+id/telefono"
+            android:layout_alignStart="@+id/telefono"
+            android:layout_marginTop="30dp"
+            android:layout_alignRight="@+id/telefono"
+            android:layout_alignEnd="@+id/telefono" />
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancelar"
+            android:id="@+id/cancel"
+            android:textColor="#0D2932"
+            android:layout_below="@+id/btn_reg"
+            android:layout_alignLeft="@+id/btn_reg"
+            android:layout_alignStart="@+id/btn_reg"
+            android:layout_marginTop="7dp"
+            android:layout_alignRight="@+id/btn_reg"
+            android:layout_alignEnd="@+id/btn_reg" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Creación Cuenta"
+            android:textColor="#ffffff"
+            android:textSize="40sp"
+            android:id="@+id/txt_success_name"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="63dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Después de clickar el botón de registro. Serás redireccionado a la página de login."
+            android:id="@+id/textView6"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"
+            android:layout_below="@+id/txt_success_name"
+          />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/f"
+    tools:context=".ListaReunionesTodo">
+
+    <ListView
+        android:id="@+id/listViewTodo"
+        android:layout_width="match_parent"
+        android:layout_height="407dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="160dp" />
+
+    <TextView
+
+        android:id="@+id/textView5Todo"
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:layout_above="@+id/listViewTodo"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="-160dp"
+        android:text="Tu historial de reuniones "
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="38dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

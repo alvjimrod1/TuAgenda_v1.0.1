@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/textViewNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        android:background="#022d44"
+        android:elegantTextHeight="true"
+        android:paddingBottom="10dp"
+        android:text="Empresa"
+        android:textColor="#FFF"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewCliente"
+        android:layout_width="272dp"
+        android:layout_height="54dp"
+        android:layout_alignStart="@+id/textViewNombre"
+        android:layout_below="@+id/textViewNombre"
+        android:background="#073b53"
+        android:paddingTop="10dp"
+
+        android:text="Nombre"
+        android:textColor="#FFF"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:id="@+id/textViewTelefono"
+        android:layout_width="120dp"
+        android:layout_height="54dp"
+        android:layout_alignEnd="@+id/textViewNombre"
+        android:layout_below="@+id/textViewNombre"
+        android:background="#073b53"
+        android:paddingTop="10dp"
+        android:text="Hora"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="25dp" />
+
+</RelativeLayout>

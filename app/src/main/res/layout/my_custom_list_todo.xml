@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+
+    <TextView
+        android:id="@+id/textViewNombreT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:background="#000"
+        android:paddingBottom="10dp"
+        android:text="Supermercado"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="27dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewClienteT"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignEnd="@+id/textViewNombreT"
+        android:layout_below="@+id/textViewNombreT"
+        android:paddingTop="10dp"
+        android:text="Cliente"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/textViewTelefonoT"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignStart="@+id/textViewNombreT"
+        android:layout_below="@+id/textViewClienteT"
+        android:paddingTop="10dp"
+        android:text="Telefono"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textViewDescripcionT"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignStart="@+id/textViewNombreT"
+        android:layout_below="@+id/textViewEmailT"
+        android:paddingTop="10dp"
+        android:text="Descripcion"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textViewEmailT"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textViewTelefonoT"
+        android:paddingTop="10dp"
+        android:text="Email"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textViewHoraT"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignEnd="@+id/textViewNombreT"
+        android:layout_below="@+id/textViewEmailT"
+        android:paddingTop="10dp"
+        android:text="Hora"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textViewNotaT"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignEnd="@+id/textViewNombreT"
+        android:layout_below="@+id/textViewClienteT"
+        android:paddingTop="10dp"
+        android:text="Nota"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textViewUbicacionT"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignStart="@+id/textViewNombreT"
+        android:layout_below="@+id/textViewNombreT"
+        android:paddingTop="10dp"
+        android:text="Ubicacion"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textViewFechaT"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignEnd="@+id/textViewNombreT"
+        android:layout_below="@+id/textViewTelefonoT"
+        android:paddingTop="10dp"
+        android:text="Fecha"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="20dp" />
+
+    <ImageButton
+        android:id="@+id/buttonDelete"
+        android:layout_width="53dp"
+        android:layout_height="44dp"
+        android:layout_alignEnd="@+id/textViewNombreT"
+        android:layout_alignTop="@+id/textViewNombreT"
+        android:background="@android:color/transparent"
+        android:src="@drawable/papelera"
+        android:text="Borrar" />
+</RelativeLayout>
